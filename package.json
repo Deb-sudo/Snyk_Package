@@ -7,10 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "4.16.0",               // known issues in older versions
-    "lodash": "4.17.11",               // had prototype pollution
-    "mongoose": "5.2.0",               // old version with known bugs
-    "handlebars": "4.0.11",            // vulnerable to RCE in some versions
-    "debug": "2.6.8"                   // had ReDos issue
+    "express": "4.16.0",               
+    "lodash": "4.17.11",              
+    "mongoose": "5.2.0",               
+    "handlebars": "4.0.11",            
+    "debug": "2.6.8"                   
   }
 }
